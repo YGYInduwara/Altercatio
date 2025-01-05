@@ -8,5 +8,13 @@
       }
     }
   ],
+
+  "rewrites": [
+    { 
+      "source": "/(.*)",
+      "destination": "/" 
+    }
+  ],
+  
   "framework": "vite"
 }
