@@ -1,9 +1,12 @@
 {
-  "build": {
-    "src": "Frontend",
-    "use": "@vercel/static-build",
-    "config": {
-      "distDir": "Frontend/dist"
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
     }
-  }
+  ],
+  "framework": "vite"
 }
