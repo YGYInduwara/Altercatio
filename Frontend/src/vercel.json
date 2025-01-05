@@ -1,0 +1,9 @@
+{
+  "build": {
+    "src": "Frontend",
+    "use": "@vercel/static-build",
+    "config": {
+      "distDir": "Frontend/dist"
+    }
+  }
+}
