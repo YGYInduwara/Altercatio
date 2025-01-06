@@ -31,8 +31,6 @@ import doc11 from './doc11.png'
 import doc12 from './doc12.png'
 import doc13 from './doc13.png'
 import doc14 from './doc14.png'
-import doc15 from './doc15.png'
-import doc16 from './doc16.png'
 import Dermatologist from './Dermatologist.svg'
 import Gastroenterologist from './Gastroenterologist.svg'
 import General_physician from './General_physician.svg'
@@ -93,12 +91,12 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Vanguard',
+        name: 'The Noble Knights',
         image: doc1,
-        speciality: 'Ruchira Ketawalakumbura',
+        speciality: 'Gaveen Dayaratna',
         degree: 'Team Leader',
         experience: 'new',
-        about: 'Vanguard is a premier debate franchise committed to fostering critical thinking, persuasive communication, and collaborative strategy. The team excels in high-pressure environments, emphasizing meticulous research, innovative arguments, and impactful delivery.',
+        about: 'The Noble Knights is a premier debate franchise committed to fostering critical thinking, persuasive communication, and collaborative strategy. The team excels in high-pressure environments, emphasizing meticulous research, innovative arguments, and impactful delivery.',
         fees: 1000,
         address: {
             line1: '17th Cross, Richmond',
@@ -107,12 +105,12 @@ export const doctors = [
     },
     {
         _id: 'doc2',
-        name: 'The Dialectics',
+        name: 'United',
         image: doc2,
-        speciality: 'Induwara Rajapaksha ',
+        speciality: 'Nilushana Jayaratne ',
         degree: 'Team Leader',
         experience: 'new',
-        about: 'Team Dialectics thrives on creative arguments and innovative solutions. The team believes in harnessing intellectual synergy to craft compelling narratives, winning debates through a balance of research and eloquence',
+        about: 'Team United thrives on creative arguments and innovative solutions. The team believes in harnessing intellectual synergy to craft compelling narratives, winning debates through a balance of research and eloquence',
         fees: 1000,
         address: {
             line1: '27th Cross, Richmond',
@@ -121,12 +119,12 @@ export const doctors = [
     },
     {
         _id: 'doc3',
-        name: 'United',
+        name: 'The Zens',
         image: doc3,
-        speciality: 'Nilushana Jayaratne',
+        speciality: 'Vishwa Udan',
         degree: 'Team Leader',
         experience: 'new',
-        about: 'United combines logic, passion, and precision to outshine competitors. The team specializes in powerful rebuttals and persuasive storytelling, leaving a lasting impression in every tournament they compete in.',
+        about: 'The Zens combines logic, passion, and precision to outshine competitors. The team specializes in powerful rebuttals and persuasive storytelling, leaving a lasting impression in every tournament they compete in.',
         fees: 1000,
         address: {
             line1: '37th Cross, Richmond',
@@ -135,12 +133,12 @@ export const doctors = [
     },
     {
         _id: 'doc4',
-        name: 'DRAGONS',
+        name: 'Opinionators',
         image: doc4,
-        speciality: 'Alex Johnson',
+        speciality: 'Avishka Perera',
         degree: 'Team Leader',
         experience: 'new',
-        about: 'DRAGONS are renowned for their exceptional speaking skills and unmatched poise. Their approach combines thorough research, impactful delivery, and persuasive logic to dominate the debate floor.',
+        about: 'Opinionators are renowned for their exceptional speaking skills and unmatched poise. Their approach combines thorough research, impactful delivery, and persuasive logic to dominate the debate floor.',
         fees: 1000,
         address: {
             line1: '47th Cross, Richmond',
@@ -181,12 +179,12 @@ export const doctors = [
     },
     {
         _id: 'doc5',
-        name: 'PHANTOM',
+        name: 'සිරිමත්',
         image: doc5,
-        speciality: 'Alex Johnson',
+        speciality: 'Shahan Athma',
         degree: 'Team Leader',
         experience: 'new',
-        about: 'PHANTOMS excels in creating balanced arguments and engaging dialogues. They focus on adapting to diverse topics with flexibility, ensuring a memorable and thought-provoking presence in every debate.',
+        about: 'සිරිමත් excels in creating balanced arguments and engaging dialogues. They focus on adapting to diverse topics with flexibility, ensuring a memorable and thought-provoking presence in every debate.',
         fees: 1000,
         address: {
             line1: '57th Cross, Richmond',
@@ -227,12 +225,12 @@ export const doctors = [
     },
     {
         _id: 'doc6',
-        name: 'RATHGAMA ROYAL',
+        name: 'The Monarchy',
         image: doc6,
         speciality: 'Alex Johnson',
-        degree: 'Team Leader',
+        degree: 'Pasindu Ambawelage',
         experience: 'new',
-        about: 'RATHGAMA ROYAL challenge the norm with bold, innovative perspectives. Known for their fearless rebuttals and dynamic teamwork, they redefine debate by pushing intellectual boundaries.',
+        about: 'The Monarchy challenge the norm with bold, innovative perspectives. Known for their fearless rebuttals and dynamic teamwork, they redefine debate by pushing intellectual boundaries.',
         fees: 1000,
         address: {
             line1: '57th Cross, Richmond',
@@ -273,12 +271,12 @@ export const doctors = [
     },
     {
         _id: 'doc7',
-        name: 'FAUGET',
+        name: 'බොට්ටු',
         image: doc7,
-        speciality: 'Alex Johnson',
+        speciality: 'Gayan Perera',
         degree: 'Team Leader',
         eexperience: 'new',
-        about: 'FAUGET bring finesse and sophistication to the art of debating. Their mastery lies in crafting articulate arguments paired with an impressive stage presence that captivates audiences.',
+        about: 'බොට්ටු bring finesse and sophistication to the art of debating. Their mastery lies in crafting articulate arguments paired with an impressive stage presence that captivates audiences.',
         fees: 1000,
         address: {
             line1: '17th Cross, Richmond',
@@ -319,12 +317,12 @@ export const doctors = [
     },
     {
         _id: 'doc8',
-        name: 'SPARTON WARRIOR',
+        name: 'චන්ද්‍රමණ්ඩලය',
         image: doc8,
-        speciality: 'Alex Johnson',
+        speciality: 'Tharindu Akalanka',
         degree: 'Team Leader',
         experience: 'new',
-        about: 'SPARTON WARRIORS pride themselves on out-of-the-box arguments and deep critical thinking. Their strategy is rooted in creativity and analytical prowess, making them formidable competitors.',
+        about: 'චන්ද්‍රමණ්ඩලය pride themselves on out-of-the-box arguments and deep critical thinking. Their strategy is rooted in creativity and analytical prowess, making them formidable competitors.',
         fees: 1000,
         address: {
             line1: '27th Cross, Richmond',
@@ -365,12 +363,12 @@ export const doctors = [
     },
     {
         _id: 'doc9',
-        name: 'FAUGET',
+        name: 'Silver Flames',
         image: doc9,
-        speciality: 'Alex Johnson',
+        speciality: 'Menura Malshan',
         degree: 'Team Leader',
         experience: 'new',
-        about: 'FAUGET approach debates with sharp analysis and strategic depth. Their strength lies in breaking down complex topics into persuasive, impactful arguments that resonate with judges and audiences.',
+        about: 'Silver Flames approach debates with sharp analysis and strategic depth. Their strength lies in breaking down complex topics into persuasive, impactful arguments that resonate with judges and audiences.',
         fees: 1000,
         address: {
             line1: '37th Cross, Richmond',
@@ -604,99 +602,6 @@ export const doctors = [
         fees: 1000,
         address: {
             line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        },
-        members: [
-            {
-                name: 'John Doe',
-                image: './vanguard_member1.png',
-                role: 'Research Analyst'
-            },
-            {
-                name: 'Jane Smith',
-                image: './vanguard_member2.png',
-                role: 'Speaker'
-            },
-            {
-                name: 'Alice Brown',
-                image: './vanguard_member3.png',
-                role: 'Strategist'
-            },
-            {
-                name: 'Bob White',
-                image: './vanguard_member4.png',
-                role: 'Rebuttal Specialist'
-            },
-            {
-                name: 'Mary Green',
-                image: './vanguard_member5.png',
-                role: 'Content Creator'
-            },
-            {
-                name: 'Peter Black',
-                image: './vanguard_member6.png',
-                role: 'Support Analyst'
-            }
-        ]
-    },
-    {
-        _id: 'doc15',
-        name: 'BLACK PANTHER',
-        image: doc15,
-        speciality: 'Alex Johnson',
-        degree: 'Team Leader',
-        experience: 'new',
-        about: 'BLACK PANTHER combine academic rigor and tactical brilliance to succeed. Their approach focuses on data-driven arguments, adaptability, and collaboration, making them a force to be reckoned with.',
-        fees: 1000,
-        address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        },
-        members: [
-            {
-                name: 'John Doe',
-                image: './vanguard_member1.png',
-                role: 'Research Analyst'
-            },
-            {
-                name: 'Jane Smith',
-                image: './vanguard_member2.png',
-                role: 'Speaker'
-            },
-            {
-                name: 'Alice Brown',
-                image: './vanguard_member3.png',
-                role: 'Strategist'
-            },
-            {
-                name: 'Bob White',
-                image: './vanguard_member4.png',
-                role: 'Rebuttal Specialist'
-            },
-            {
-                name: 'Mary Green',
-                image: './vanguard_member5.png',
-                role: 'Content Creator'
-            },
-            {
-                name: 'Peter Black',
-                image: './vanguard_member6.png',
-                role: 'Support Analyst'
-            }
-        ]
-    },
-
-    {
-        _id: 'doc16',
-        name: 'KING MAKER',
-        image: doc16,
-        speciality: 'Alex Johnson',
-        degree: 'Team Leader',
-        experience: 'new',
-        about: 'KING MAKER bring energy, passion, and a collaborative spirit to debates. They shine through meticulous preparation, quick thinking, and the ability to tackle any topic with confidence.',
-        fees: 1000,
-        address: {
-            line1: '37th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
         },
         members: [
