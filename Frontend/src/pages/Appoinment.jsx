@@ -56,7 +56,7 @@ const Appoinment = () => {
   </button>
 </div>
 {/**-------------------Listing Related Teams---------------- */}
-<RelatedTeams docId={docId} speciality={docInfo.degree}/>
+<RelatedTeams docId={docId} speciality={docInfo.fees}/>
         
     </div>
   )
