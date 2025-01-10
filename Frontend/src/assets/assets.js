@@ -455,12 +455,12 @@ export const doctors = [
     },
     {
         _id: 'doc11',
-        name: 'WOLVES',
+        name: 'uNRed',
         image: doc11,
-        speciality: 'Alex Johnson',
+        speciality: 'Sudheera Perera (c)',
         degree: 'Team Leader',
         experience: 'new',
-        about: 'WOLVES meticulously construct well-founded cases, blending logical precision with persuasive delivery. Their debates are characterized by clarity, depth, and unparalleled strategy.',
+        about: 'uNRed meticulously construct well-founded cases, blending logical precision with persuasive delivery. Their debates are characterized by clarity, depth, and unparalleled strategy.',
         fees: 1000,
         address: {
             line1: '57th Cross, Richmond',
