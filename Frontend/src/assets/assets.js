@@ -458,7 +458,7 @@ export const doctors = [
         name: 'uNRed',
         image: doc11,
         speciality: 'Sudheera Perera (c)',
-        degree: 'Team Leader',
+        degree: 'Team Leader',      `   ````````````````````````````    
         experience: 'new',
         about: 'uNRed meticulously construct well-founded cases, blending logical precision with persuasive delivery. Their debates are characterized by clarity, depth, and unparalleled strategy.',
         fees: 1000,
@@ -501,12 +501,12 @@ export const doctors = [
     },
     {
         _id: 'doc12',
-        name: 'ROYAL EAGLE',
+        name: 'Truth Slayers',
         image: doc12,
-        speciality: 'Alex Johnson',
+        speciality: 'Kaveesha Mayuranga',
         degree: 'Team Leader',
         experience: 'new',
-        about: 'ROYAL EAGLES are trailblazers in crafting compelling arguments and presenting innovative ideas. Their unmatched confidence and eloquence set them apart as leaders in the debate world.',
+        about: 'Truth Slayers are trailblazers in crafting compelling arguments and presenting innovative ideas. Their unmatched confidence and eloquence set them apart as leaders in the debate world.',
         fees: 1000,
         address: {
             line1: '57th Cross, Richmond',
